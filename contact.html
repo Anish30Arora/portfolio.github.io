@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #1e1e1e;
+            color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            display: flex;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            flex: 1;
+        }
+        .contact-form h2 {
+            margin-top: 0;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        .contact-form textarea {
+            resize: none;
+        }
+        .contact-form input[type="submit"] {
+            background-color: orange;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #ff7f0f;
+        }
+        .contact-info {
+            flex: 1;
+            padding-left: 40px;
+            border-left: 1px solid #fff;
+        }
+        .contact-info h2 {
+            margin-top: 0;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 0;
+            line-height: 1.5;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: aroraanish410@gmail.com</p>
+            <p>Phone: 8700118423</p>
+            <p>Address: Ranchi, Jharkhand</p>
+        </div>
+    </div>
+</body>
+</html>
